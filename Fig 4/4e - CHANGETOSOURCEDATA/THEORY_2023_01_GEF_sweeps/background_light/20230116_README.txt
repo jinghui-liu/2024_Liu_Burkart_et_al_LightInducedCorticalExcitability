@@ -1,0 +1,12 @@
+README for 20230116_wave_[...].txt
+==================================
+
+This dataset is based on oocyte radius R = 120 um. "Background intensity" is relative to the light intensity in the illuminated region. The parameter u0 (background GEF concentration) was set to 0 for this sweep.
+
+wave_distances
+--------------
+Two-column table with the background intensity in column one and the propagation distance along the oocyte measured in microns in column 2.
+
+wave_speeds
+-----------
+Two-column table with the background intensity in column one. In the second column, there is a list of measured wave speeds at each time point. Because of discrete sampling, I can't get wave speed data for a regular list of time points, hence each sweep comes with its own list of time points. The data is structured as {{t0, v(t0)}, {t1, v(t1)}, ...} with t measured in seconds and v measured in microns/s.
